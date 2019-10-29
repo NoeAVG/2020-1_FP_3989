@@ -6,8 +6,7 @@ int main(int argc, char *argv[])
 
 	n1 = atof(argv[1]);
 	n2 = atof(argv[2]);
-
-	suma = n1 + n2;
+        suma = n1 + n2;
 	resta = n1 - n2;
 	multiplicacion = n1 * n2;
 	division = n1 / n2;
