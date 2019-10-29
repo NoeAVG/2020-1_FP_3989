@@ -5,7 +5,6 @@ int main(int argc, char *argv[])
         //Declaramos y asignamos varibles
 	int lista[argc], suma = 0;
 	float promedio;
-
     //Programa
     for (int i = 1; i < argc; i++){
     lista[i]=atoi(argv[i]);
