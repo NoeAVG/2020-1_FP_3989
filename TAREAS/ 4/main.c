@@ -15,6 +15,6 @@ int main(int argc, char *argv[])
 	promedio = (float)suma/(argc - 1);
 	
         //Mostramos valores
-        printf("%f\n", promedio);
+        printf("%.2lf\n", promedio);
 	return 0;
 }
