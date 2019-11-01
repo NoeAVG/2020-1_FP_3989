@@ -10,10 +10,10 @@ int main(int argc, char *argv[])
 	resta = n1 - n2;
 	multiplicacion = n1 * n2;
 	division = n1 / n2;
-	printf("suma: %.2lf\n", suma);
-	printf("resta: %.2lf\n", resta);
-	printf("multiplicacion: %.2lf\n", multiplicacion);
-	printf("division: %.2lf\n", division);
+	printf("%.2lf\n", suma);
+	printf("%.2lf\n", resta);
+	printf("%.2lf\n", multiplicacion);
+	printf("%.2lf\n", division);
 
 	return 0;
 }
